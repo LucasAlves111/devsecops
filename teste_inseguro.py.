@@ -1,0 +1,5 @@
+# Exemplo de código inseguro
+db_password = "SENHA_MUITO_SECRETA_123"
+user_input = input("Digite seu nome: ")
+query = "SELECT * FROM users WHERE name = '" + user_input + "'"
+print("Executando: " + query)
